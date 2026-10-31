@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job-Form</title>
+</head>
+<style>
+    .main-heading{
+        margin: auto;
+        text-align: center;
+    }
+    fieldset{
+        width: fit-content;
+    }
+</style>
+<body>
+    <h1 class="main-heading">Job Application Form</h1> <hr>
+    <form action="#">
+        <fieldset><legend>Personal Information</legend>
+            <label for="name">Full Name:</label>
+        <input type="text" name="" id="name" placeholder="Enter your Name">
+        <label for="mail">Email Address:</label>
+        <input type="email" name="" id="mail" placeholder="someone@gmail.com"> <br>
+        <label for="num">Phone Number:</label>
+        <input type="tel" name="" id="num" placeholder="+92---------"> 
+        <label for="link">Website or Portfolio:</label>
+        <input type="url" name="" id="link" placeholder="www.iamhere.com"> <br>
+        <label for="date">Date of Birth:</label> 
+        <input type="date" name="" id="date">
+        </fieldset>
+        <fieldset><legend>Job Details</legend>
+            <label for="">Job Position:</label>
+        <select name="" id="">
+            <option value="">Frontend Developer</option>
+            <option value="">Backend Developer</option>
+            <option value="">UI/UX Designer</option>
+            <option value="">QA Engineer</option>
+        </select>
+        <label for="work">Preferred Work Location:</label>
+        <input type="radio" name="work" id="" >On-site
+        <input type="radio" name="work" id="" >Hybrid
+        <input type="radio" name="work" id="" >Remote <br>
+        <label for="">Skills:</label>
+        <input type="checkbox" name="" id="">HTML
+        <input type="checkbox" name="" id="">CSS
+        <input type="checkbox" name="" id="">Javascript
+        <input type="checkbox" name="" id="">React
+        <input type="checkbox" name="" id="">Node.js <br>
+        <label for="">Resume Upload:</label>
+        <input type="file" name="" id="">
+        <label for="">Write About Yourself:</label>
+        <textarea name="" id="" ></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Extra Section</legend>
+            <label for="">Search your favorite tech stack:</label>
+            <input type="search" name="" id="" placeholder="Seacrh here"> <br>
+            <label for="">Password:</label>
+            <input type="password" name="" id="" placeholder="Enter Password">
+            <label for="">Confirm Password:</label>
+            <input type="password" name="" id="" placeholder="Confirm Password"> <br>
+            <input  type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>

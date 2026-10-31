@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Assignment #1</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 30px;
+        transition: 0.3s;
+    }
+
+    .container {
+        max-width: 850px;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #222;
+    }
+
+    .task {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px #00000015;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+        color: #2563eb;
+    }
+
+    p {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    button {
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        padding: 10px 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background-color: #1d4ed8;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    #outputText {
+        margin-top: 15px;
+        color: green;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+
+    <h1>JavaScript DOM Assignment #1</h1>
+
+    <div class="task">
+        <h2>Task 1: Change Text</h2>
+
+        <h3 id="heading">Hello World</h3>
+    </div>
+
+    <div class="task">
+        <h2>Task 2: Change Paragraph Text</h2>
+
+        <p id="paragraph">This is a paragraph</p>
+
+        <button id="changeTextBtn">Change Text</button>
+    </div>
+
+    <div class="task">
+        <h2>Task 3: Change Background Color</h2>
+
+        <button id="backgroundBtn">Change Background</button>
+    </div>
+
+    <div class="task">
+        <h2>Task 4: Show Alert Message</h2>
+
+        <button id="alertBtn">Show Alert</button>
+    </div>
+
+    <div class="task">
+        <h2>Task 5: Update Text Using Input</h2>
+
+        <input
+            type="text"
+            id="userInput"
+            placeholder="Enter your text here..."
+        >
+
+        <button id="updateBtn">Update Text</button>
+
+        <p id="outputText"></p>
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

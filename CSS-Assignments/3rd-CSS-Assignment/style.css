@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    border-bottom:  1.7px solid black;
+    border-shadow: 0px 2px 5px black;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+    background-color: orange;
+    height:fit-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px black;
+}
+.product-item img{
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    
+
+}
+.product-item h4{
+    text-align: center;
+    white-space: nowrap;
+    word-spacing: -1px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.main{
+    background-color: #efeded;
+    padding: 10px 40px;
+}
+.main img{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    margin-bottom: 20px;
+
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+table th, table td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+table th{
+    border:none;
+    background-color: orange;
+}
+table td{
+    text-align:justify;
+}
+table span{
+    color: red;
+    text-decoration: line-through;
+}
+.desc{
+    padding: 10px 40px;
+    color:#747474;
+}
+.desc p{
+    text-align: justify;
+    line-height: 1.1;
+}
+.desc li{
+    padding: 0px 15px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
